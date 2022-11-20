@@ -1,4 +1,4 @@
-import './VideoItem.css'
+import '../style/VideoItem.css'
 
 const VideoItem = ({ video, onVideoSelect }) => {
 	return (

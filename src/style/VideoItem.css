@@ -2,8 +2,13 @@
     display: flex !important;
     align-items: center !important;
     cursor: pointer;
+    transition: transform .5s;
 }
 
 .video-item.item img {
     max-width: 180px;
+}
+
+.video-item.item:hover {
+    transform: scale(1.2);
 }

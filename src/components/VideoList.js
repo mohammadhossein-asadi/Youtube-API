@@ -1,3 +1,4 @@
+import '../style/VideoList.css'
 import VideoItem from "./VideoItem"
 
 const VideoList = ({ videos, onVideoSelect }) => {
@@ -11,7 +12,11 @@ const VideoList = ({ videos, onVideoSelect }) => {
 	})
 
 
-	return <div className="ui relaxed divided list">{renderedList}</div>
+	return (
+		<div className='video-list'>
+			<div className="ui relaxed divided list">{renderedList}</div>
+		</div>
+	)
 }
 
 export default VideoList
